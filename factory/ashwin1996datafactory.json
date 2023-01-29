@@ -1,0 +1,14 @@
+{
+	"name": "ashwin1996datafactory",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false"
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5c9dbb61-3a7a-4858-9e57-6f99e96cdbc4",
+		"tenantId": "813e6569-4e44-4d95-88a0-16a97bd5277c"
+	}
+}
