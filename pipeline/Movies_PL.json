@@ -25,22 +25,6 @@
 					},
 					"traceLevel": "Fine"
 				}
-			},
-			{
-				"name": "Wait1",
-				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "MoviesDB_DF",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"waitTimeInSeconds": 5
-				}
 			}
 		],
 		"annotations": [],
