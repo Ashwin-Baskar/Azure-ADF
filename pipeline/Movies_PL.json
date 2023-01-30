@@ -41,6 +41,22 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 5
 				}
+			},
+			{
+				"name": "wait_extend",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "MoviesDB_DF",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
 			}
 		],
 		"annotations": [],
